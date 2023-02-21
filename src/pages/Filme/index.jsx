@@ -78,8 +78,10 @@ function Filme() {
       <strong>Avalição: {filme.vote_average} / 10</strong>
 
       <div className="area-buttons">
-        <button onClick={salvarFilme}>Salvar</button>
-        <button>
+        <button className="save-button" onClick={salvarFilme}>
+          Salvar
+        </button>
+        <button className="trailer-button">
           <a
             target="blank"
             rel="external"
