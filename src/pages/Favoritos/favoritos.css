@@ -17,6 +17,13 @@
   width: 720px;
 }
 
+@media (max-width: 768px) {
+  .meus-filmes ul {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
 .meus-filmes ul li {
   list-style: none;
   display: flex;
